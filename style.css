@@ -86,16 +86,38 @@ html{
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     #frm {
-        flex-direction: column;  /* input aur button neeche neeche */
+        flex-direction: column;  input aur button neeche neeche
     }
 
     #container {
-        grid-template-columns: 1fr;  /* ek column — 50/50 nahi */
+        grid-template-columns: 1fr;  ek column — 50/50 nahi
     }
 
     #heading {
         font-size: 1.2rem;  /* chota */
+    }
+} */
+
+@media (max-width: 600px) {
+    #content-section {
+        padding: 1.5rem 1rem;
+    }
+
+    #heading {
+        font-size: 1.2rem;
+    }
+
+    #inp {
+        padding: 0.3rem 0.6rem;
+    }
+
+    #btn {
+        padding: 0.3rem 0.6rem;
+    }
+
+    .content {
+        padding: 0.4rem 1rem;
     }
 }
