@@ -33,6 +33,7 @@ html{
     background-color: aquamarine;
     align-items: center;
     gap: 2rem;
+    /* gap: 1rem; */
     padding: 3rem 4rem;
 }
 #heading{
@@ -71,6 +72,8 @@ html{
     /* display: none; */
     border: 1px solid rgb(181, 162, 162);
     padding: 0.5rem 1rem;
+     padding: 0.5rem 1rem;
+    font-size: 0.85rem;
     text-align: left;
     color:aliceblue;
     border-radius: 5px;
@@ -81,8 +84,11 @@ html{
     /* margin-top: -5%; */
    color:rgb(255, 0, 0);
    background-color: #ffffff48;
-   padding: 0.4rem 4rem;
+   /* padding: 0.4rem 2rem; */
    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;  /* pehle 4.3rem tha — itna padding mat de */
+    text-align: center;
+    white-space: nowrap;
 }
 
 
@@ -120,4 +126,5 @@ html{
     .content {
         padding: 0.4rem 1rem;
     }
+    
 }
