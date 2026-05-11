@@ -84,3 +84,18 @@ html{
    padding: 0.4rem 4rem;
    border-radius: 0.2rem;
 }
+
+
+@media (max-width: 600px) {
+    #frm {
+        flex-direction: column;  /* input aur button neeche neeche */
+    }
+
+    #container {
+        grid-template-columns: 1fr;  /* ek column — 50/50 nahi */
+    }
+
+    #heading {
+        font-size: 1.2rem;  /* chota */
+    }
+}
