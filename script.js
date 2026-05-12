@@ -18,12 +18,12 @@ async function getWeather(e) {
             error.innerText = `Please enter your city name `
         }
         else {
-            console.clear()
+            // console.clear()
             weatherDesc.innerText = "";
             humidity.innerText = "";
             temp_C.innerText = "";
 
-            let city = inp.value;
+            let city = inp.value.trim();
 
             // Geo fetch
             let geoResponse = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=1`)
@@ -151,6 +151,7 @@ async function getWeather(e) {
         // }
     }
     catch (err) {
+        // error.innerText = `${err}`
         error.innerText = `City Not Found`
         error.style.display = "block"
         container.style.display = "none"
